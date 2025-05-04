@@ -1,0 +1,33 @@
+{
+  "services": [
+    {
+      "id": "menage",
+      "nom": "Ménage",
+      "description": "Service de nettoyage régulier ou occasionnel",
+      "categories": ["entretien"],
+      "tarif_horaire": 25.0
+    },
+    {
+      "id": "repassage",
+      "nom": "Repassage",
+      "description": "Service de repassage à domicile",
+      "categories": ["entretien"],
+      "tarif_par_kg": 12.0
+    },
+    {
+      "id": "jardinage",
+      "nom": "Jardinage",
+      "description": "Entretien des espaces verts",
+      "categories": ["exterieur"],
+      "prestations": [
+        {"nom": "Tonte", "unite": "m²"},
+        {"nom": "Taille haies", "unite": "heure"}
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "date_mise_a_jour": "2024-08-11",
+    "source": "Maison et Services"
+  }
+}
